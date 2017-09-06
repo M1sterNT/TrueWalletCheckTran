@@ -10,7 +10,7 @@ $username = "*******";
 $password = "*******";
 $database = "*******";
 
-$mysqli = new mysqli("localhost", $username, $password, $mysqli);
+$mysqli = new mysqli("localhost", $username, $password, $database);
 
 /* check connection */
 if ($mysqli->connect_errno) {
